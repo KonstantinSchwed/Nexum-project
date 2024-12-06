@@ -1,0 +1,530 @@
+body,
+h1,
+p,
+footer {
+  margin: 0;
+  overflow-x: hidden;
+}
+body{
+  background-color: #3ebee7;
+}
+header {
+  min-width: 1500px;
+}
+header {
+  background-color: #433185;
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+
+footer {
+  background-color: #3ebee7;
+  color: #000000;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+}
+
+.mainclass {
+  width: 100%;
+  height: 1080px;
+  background-image: url("/about us/resource/space-beauty.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.loog {
+  width: 80px;
+  height: 80px;
+  background-image: url("/about us/resource/Remove-bg.ai_1709140091974.png");
+  background-size: cover;
+  background-position: center;
+  border: none;
+  margin-left: 140px;
+  float: left;
+  transition: transform 0.5s ease;
+  margin-top: 10px;
+}
+.loog:hover {
+  transform: rotate(360deg);
+}
+.links {
+  float: left;
+  margin-left: 40px;
+  margin-top: 50px;
+  position: relative;
+}
+.links a {
+  margin-right: 40px;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+.links a:hover {
+  background-color:#433185;
+  color: #3ebee7;
+}
+.links a:last-child {
+  margin-right: 0;
+}
+
+.links span {
+  position: absolute;
+  top: 100%;
+  left: 165px;
+}
+
+.links2 {
+  float: right;
+  margin-right: 100px;
+  margin-top: 20px;
+  position: relative;
+  background-color: #3ebee7; 
+}
+
+.links2 a {
+  margin-right: 40px;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  background-color: #3ebee7; 
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+.links2_2:hover {
+  background-color: #3ebee7; 
+  color: white;
+}
+.buttons {
+  position: absolute;
+  top: 60px;
+  right: 100px;
+}
+.buttons button {
+  margin-right: 40px;
+  border-radius: 30px;
+  border-color: transparent;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 14px;
+}
+.buttons .b1bs {
+  display: inline-block; 
+  background-color: #ffffff;
+  border-radius: 30px;
+  text-decoration: none;
+  padding-right: 0px;
+  width: 50px;
+  margin-right: 10px !important;
+  }
+  .buttons .b2bs {
+    display: inline-block; 
+    background-color: #ffffff;
+    border-radius: 30px;
+    text-decoration: none;
+    padding-right: 0px;
+    width: 50px;
+    margin-right: 40px !important;
+    }
+    
+.b1b {
+  margin-right: 10px !important;
+  width: 50px;
+}
+
+.b2b {
+  margin-right: 40px !important;
+  width: 50px;
+  font-weight: bold;
+}
+
+.b3b {
+  width: 100px;
+  font-weight: bold;
+}
+
+.block {
+  width: 800px;
+  background-color: #3ebee7;
+  height: 100px;
+  position: fixed;
+  -webkit-clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 0% 100%);
+  margin-left: calc(100% - 800px);
+}
+
+.btext {
+  text-align: left;
+  margin-top: 20px;
+  float: left;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 16px;
+}
+
+.btext p {
+  margin-left: 140px;
+}
+
+.highlight {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.copyright {
+  position: absolute;
+  margin-left: 140px;
+  bottom: 20px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 12px;
+}
+
+.footer {
+  position: relative;
+  text-align: left;
+}
+
+.social {
+  position: absolute;
+  right: 240px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  top: 12px;
+}
+
+.social-icons {
+  position: absolute;
+  right: 160px;
+  top: 40px;
+}
+
+.icon {
+  display: inline-block;
+  margin-right: 40px;
+  transition: transform 0.3s ease;
+}
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.contacts {
+  position: absolute;
+  right: 210px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  top: 75px;
+}
+
+.data {
+  font-size: 16px;
+  position: absolute;
+  right: 185px;
+  bottom: 20px;
+  font-family: "Century Gothic", sans-serif;
+}
+@media screen {
+  .desktop {
+    overflow-x: hidden;
+  }
+}
+@media screen {
+  .laptop {
+    zoom: 0.8;
+    transform-origin: top left;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen {
+  .laptop2 {
+    zoom: 0.67;
+    transform-origin: top left;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+.form-container {
+  background-color: #3ebee7;
+  margin-left: 140px;
+  width: 840px;
+  height: 220px;
+  margin-top: 50px;
+  margin-right: 60px;
+  border: 2px solid black;
+}
+.p-container {
+  width: 100%;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.form-group input {
+  width: 190px;
+  height: 20px;
+  border-radius: 5px;
+  border-color: transparent;
+}
+.form1 {
+  display: flex;
+  margin-left: 30px;
+}
+.message1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 40px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 18px;
+}
+.mingroup1 {
+  display: flex;
+  margin-top: 20px;
+}
+.mingroup {
+  display: flex;
+}
+.blc1 {
+  height: 20px;
+  width: 20px;
+  background-color: #433185;
+  margin-left: auto;
+  margin-right: 5px;
+}
+.message1 label {
+  margin-top: 10px;
+}
+.mingroup1 input {
+  width: 30px;
+  height: 30px;
+  margin-top: 0;
+  margin-left: 50px;
+}
+.mingroup1 button {
+  height: 30px;
+  width: 100px;
+  margin-left: 10px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.suptext {
+  padding-top: 240px;
+  padding-left: 140px;
+  width: 700px;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.suptext2 {
+  margin-top: 40px;
+  padding-left: 140px;
+  width: 700px;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.suptext3 {
+  padding-top: 40px;
+  padding-left: 140px;
+  width: 700px;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.suptext4 {
+  margin-top: 40px;
+  padding-left: 140px;
+  width: 450px;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.download {
+  margin-top: 40px;
+  margin-left: 40px;
+  height: 40px;
+  width: 40px;
+  background-color: #a99fcc;
+  background-image: url("/support/resource/pngwing.com.png");
+  background-size: 100% 100%;
+  background-position: center;
+}
+.csuptext4 {
+  display: flex;
+}
+.additional-block {
+  position: absolute;
+  margin-top: -44px;
+  right: 140px;
+  width: 390px;
+
+}
+
+.contheadt {
+  color: #000000;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.conthead {
+  margin-left: 40px;
+}
+.conthead2 {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.conthead2 {
+  color: #000000;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 16px;
+}
+.conthead3 {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.conthead3 {
+  color: #000000;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 16px;
+}
+.conthead4 {
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.conthead4 {
+  color: #000000;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.continfo {
+  background-color: #3ebee7;
+  border: 2px solid #000;
+  height: 390px;
+  
+}
+.ftext {
+  margin-top: 20px;
+  margin-left: 40px;
+  width: 450px;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.modalz {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-contentz {
+  background-color: #fefefe;
+  margin: 25% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  position: relative;
+  font-size: 18px;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.loader {
+  display: none;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  animation: spin 1s linear infinite;
+  margin-left: 10px;
+  top: 50%;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.descr {
+  font-weight: bold;
+}
+.csuptext2 a {
+  text-decoration: none;
+  color: #433185;
+  font-weight: bold;
+}
+.csuptext2 a:hover {
+  color: #f3f3f3;
+}
+.data a {
+  text-decoration: none;
+  color: #433185;
+  font-weight: bold;
+}
+.data a:hover {
+  color: #f3f3f3;
+}
+
+.b3b:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.b1b:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.b2b:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}

@@ -1,0 +1,1494 @@
+body,
+h1,
+p,
+footer {
+  margin: 0;
+  overflow-x: hidden;
+}
+body{
+  background-color: #3ebee7;
+}
+header {
+  display: flex;
+  background-color: #433185;
+  color: #ffffff;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 9000;
+  overflow-x: hidden;
+}
+
+footer {
+  background-color: #3ebee7;
+  color: #000000;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainclass {
+  width: 100%;
+  height: 2520px;
+  background-image: url("/about us/resource/space-beauty.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.loog {
+  margin-top: 3px;
+  width: 55px;
+  height: 55px;
+  background-image: url("/about us/resource/Remove-bg.ai_1709140091974.png");
+  background-size: cover;
+  background-position: center;
+  border: none;
+  margin-left: 20px;
+  float: left;
+  transition: transform 0.5s ease;
+}
+.loog:hover {
+  transform: rotate(360deg);
+}
+.links {
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 7px;
+  z-index: 1;
+}
+.burg1 {
+  width: 45px;
+  height: 45px;
+}
+.buttons {
+  position: absolute;
+  top: 60px;
+  right: 100px;
+}
+
+.buttons button {
+  margin-right: 40px;
+  border-radius: 30px;
+  border-color: transparent;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.modal2b .b1bs {
+  margin-top: 20px;
+  display: inline-block; 
+  border-radius: 30px;
+  margin-left: 20px;
+  background-color: #ffffff;
+  text-decoration: none;
+  width: 50px;
+
+  }
+.modal2b .b2bs {
+   margin-top: 20px;
+    display: inline-block; 
+    margin-left: 10px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    text-decoration: none;
+    width: 50px;
+    }
+    
+.b1b {
+  width: 50px;
+  border-radius: 30px;
+  border-color: transparent;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+}
+
+.b2b {
+  margin-right: 40px !important;
+  width: 50px;
+  border-radius: 30px;
+  border-color: transparent;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.b3b {
+  margin-left: 20px;
+  width: 100px;
+  border-radius: 30px;
+  border-color: transparent;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+}
+
+.block {
+  display: flex;
+  width: 200px;
+  background-color: #3ebee7;
+  height: 60px;
+  position: fixed;
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+  margin-left: calc(100% - 200px);
+}
+
+.btext {
+  margin-top: 20px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 14px;
+  align-self: center;
+  margin-left: 15px;
+}
+
+.highlight {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.copyright {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 12px;
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+
+.social {
+  text-align: center;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 40px;
+  align-self: center;
+  margin-top: 15px;
+}
+.icon {
+  transition: transform 0.3s ease;
+}
+.icon:hover {
+  transform: scale(1.2);
+}
+.icon img {
+  width: 30px;
+  height: 30px;
+}
+.contacts {
+  margin-top: 15px;
+  text-align: center;
+  right: 210px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  top: 75px;
+}
+
+.data {
+  margin-top: 15px;
+  font-size: 14px;
+  align-self: center;
+  font-family: "Century Gothic", sans-serif;
+  text-align: center;
+}
+
+.slider-container {
+  position: relative;
+  padding-top: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.slides img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.prev-slide,
+.next-slide {
+  position: absolute;
+
+  cursor: pointer;
+  color: white;
+  font-size: 12px;
+  z-index: 0.5;
+  background-color: #3ebee7; /* Цвет фона кнопок */
+  padding: 5px;
+  width: 20px; /* Ширина кнопок */
+  height: 10px; /* Высота кнопок */
+  border-bottom-left-radius: 5px; /* Скругление углов */
+  border-bottom-right-radius: 5px; /* Скругление углов */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next-slide:hover {
+  background-color: #3ebee7; /* Цвет фона кнопок */
+}
+.prev-slide:hover {
+  background-color: #433185; /* Измененный цвет фона при наведении */
+}
+
+.prev-slide {
+  left: 0px;
+  background-color: #3ebee7; /* Цвет фона кнопок */
+}
+
+.next-slide {
+  right: 0px;
+  background-color: #433185;
+}
+
+.dot-container {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #433185;
+  color: white;
+  font-size: 12px;
+  z-index: 1; /* чтобы точки находились над слайдами */
+}
+
+.dot:hover {
+  background-color: #3ebee7;
+}
+
+.dot.active {
+  background-color: black;
+}
+#sortButton {
+  margin-top: 20px;
+  margin-left: 140px;
+  color: #433185;
+  background-color: #3ebee7;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+}
+.service {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-row-gap: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.shop-item {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.shop-item:hover {
+  transform: scale(1.1);
+}
+.color-block {
+  margin: 0 auto;
+  width: 100%;
+  height: 250px;
+}
+.color-block1 {
+  margin: 0 auto;
+  width: 100%;
+  height: 250px;
+}
+.shop-item button {
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: #433185;
+  border-color: transparent;
+  width: 300px;
+  height: 30px;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+}
+.shop-item button:hover {
+  background-color: #3ebee7;
+  color: #000000;
+}
+
+.offer1 {
+  margin: 0 auto;
+  width: 90%;
+  height: 160px;
+}
+.offer2 {
+  margin: 0 auto;
+  width: 90%;
+  height: 160px;
+}
+.offer3 {
+  margin: 0 auto;
+  width: 90%;
+  height: 160px;
+}
+.line1 {
+  margin: 0 auto;
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%, 0 80%);
+  background: linear-gradient(to bottom, #3e56e7, #433185);
+  width: 100%;
+  height: 50px;
+}
+.line2 {
+  margin: 0 auto;
+  background-color: #3ebee7;
+  width: 100%;
+  height: 20px;
+}
+.line3 {
+  margin: 0 auto;
+  background-color: #433185;
+  width: 100%;
+  height: 20px;
+}
+.line4 {
+  margin: 0px auto;
+  background-color: white;
+  width: 100%;
+  height: 20px;
+}
+.line5 {
+  margin: 0px auto;
+  background-color: #3ebee7;
+  width: 100%;
+  height: 50px;
+  clip-path: polygon(0 0, 100% 0, 100% 20%, 70% 100%, 0 100%);
+}
+.t1 {
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: 600;
+  color: white;
+  text-align: right;
+  margin-right: 30px;
+}
+.t11 {
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  margin-left: 100px;
+}
+.t2 {
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  margin-left: 20px;
+}
+.t3 {
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  margin-left: 20px;
+}
+.t4 {
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: 600;
+  color: #433185;
+  text-align: left;
+  margin-left: 20px;
+}
+.t5 {
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: 600;
+  color: white;
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+.servall {
+  margin-top: 30px;
+  margin-left: 10px;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.servall2 {
+  margin-top: 10px;
+  padding-left: 10px;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.apps {
+  clear: left;
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(2, 1fr);
+
+  grid-row-gap: 40px;
+  margin-top: 10px;
+}
+.app-item {
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.app-item:hover {
+  transform: scale(1.1);
+}
+.app-block1 {
+  margin: 0 auto;
+  width: 70px;
+  height: 70px;
+}
+.apps .sys {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 14px;
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 15px;
+}
+.servall3 {
+  margin-top: 10px;
+  padding-left: 10px;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+.support {
+  display: flex;
+  flex-direction: column;
+  background-color: #ebdfdf;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 2px solid black;
+}
+
+.bad {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #433185;
+}
+.way {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #433185;
+}
+.lnk {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 20px;
+  color: #433185;
+}
+.exp {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-left: 20px;
+  color: #433185;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #3ebee7;
+  margin-bottom: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border: 2px solid black;
+}
+.p-container {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 18px;
+  margin-top: 5px;
+}
+.form-group input {
+  width: 190px;
+  height: 20px;
+  border-radius: 5px;
+  border-color: transparent;
+}
+.form1 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.message1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-right: 40px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 16px;
+}
+#message {
+  margin-right: 20px;
+}
+.mingroup1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mingroup {
+  display: flex;
+}
+.blc1 {
+  height: 20px;
+  width: 20px;
+  background-color: #433185;
+  min-width: 20px;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.descr {
+  min-width: 140px;
+}
+.cpeks {
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.sobr {
+  margin-left: 20px;
+  display: flex;
+}
+
+.ask {
+  font-size: 12px;
+  width: 200px;
+}
+.message1 label {
+  margin-top: 10px;
+}
+.mingroup1 input {
+  width: 30px;
+  height: 30px;
+}
+.mingroup1 button {
+  margin-left: 30px;
+  height: 30px;
+  width: 100px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 2.5px;
+}
+#telegram-icon {
+  font-size: 30px;
+  color: #2aabee;
+  background-color: #ffffff;
+  background: radial-gradient(circle, #ffffff, rgba(255, 255, 255, 0));
+  border-radius: 50%;
+}
+.modalb {
+  display: none;
+  position: fixed;
+  z-index: 9000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-contentb {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: #3ebee7;
+  padding-top: 20px;
+  border: 2px solid black;
+  margin-left: 150px;
+  border-bottom-left-radius: 10px;
+  position: relative;
+}
+.modal2b {
+  display: flex;
+}
+.lks {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.lks a {
+  text-decoration: none;
+}
+.lks a:hover {
+  text-decoration: none;
+  color: white;
+}
+.gran {
+  padding-left: 20px;
+  border-top: solid 2px black;
+}
+.blockclose {
+  top: -5px;
+  position: absolute;
+  right: 20px;
+}
+.closeb {
+  color: #433185;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.closeb:hover,
+.closeb:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin-top: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#confirmButton {
+  margin-top: 10px;
+  background-color: #3ebee7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#confirmButton:hover {
+  background-color: #433185;
+}
+.additional {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+.based {
+  font-size: 14px;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+}
+.additional2 {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+.additional3 {
+  margin-top: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+.tooltip {
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+  display: none;
+  background-color: #3ebee7;
+  border: 2px solid #433185;
+  z-index: 1;
+  font-weight: bold;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.tooltip1 {
+  margin-top: 5px;
+  text-align: left;
+  margin-left: 15px;
+}
+@media screen and (min-width: 600px) {
+  .mainclass {
+    width: 100%;
+    height: 2000px;
+    background-image: url("/about us/resource/space-beauty.jpg");
+    background-size: contain;
+    background-attachment: fixed;
+  }
+  .service {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin-top: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 10px;
+    position: relative;
+  }
+}
+.descr {
+  font-weight: bold;
+}
+.modalz {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-contentz {
+  background-color: #fefefe;
+  margin: 25% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  position: relative;
+  font-size: 18px;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.loader {
+  display: none;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  animation: spin 1s linear infinite;
+  margin-left: 10px;
+  top: 50%;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.offer3 .line1 {
+  background: linear-gradient(to bottom, #d7004c, #433185);
+  background-color: #cb3131;
+}
+.offer2 .line1 {
+  background: linear-gradient(to bottom, #00d789, #433185);
+  background-color: #62994e;
+}
+.data a {
+  text-decoration: none;
+  color: #433185;
+  font-weight: bold;
+}
+.data a:hover {
+  color: #f3f3f3;
+}
+
+
+
+
+
+.modal2 {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content2 {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.close2 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: rgb(148, 134, 134);
+  text-decoration: none;
+  cursor: pointer;
+}
+#userModal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content3 {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  position: relative;
+  background-color: #fefefe; 
+  padding: 20px; 
+  border: 1px solid #888; 
+  width: 290px; 
+  max-width: 80%; 
+  border-radius: 0 0 0 10px; 
+  margin-top: 0px; 
+  margin-right: 0px; 
+  font-family: "Century Gothic", sans-serif; 
+  color: #433185; 
+}
+
+#loginForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  font-size: 18px;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+.label2 {
+  margin: 0px;
+  padding: 0px;
+  margin-top: 10px;
+}
+#loginForm input {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc; 
+  outline: none; 
+  margin-top: 5px;
+}
+
+#confirmButton2 {
+  margin-top: 10px; 
+  background-color: #3EBEE7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#confirmButton2:hover {
+  background-color: #433185;
+}
+
+#logoutButton {
+  margin-top: 10px; 
+  background-color: #3EBEE7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#logoutButton:hover {
+  background-color: #433185;
+}
+.closeUserModal {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeUserModal:hover,
+.closeUserModal:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.based{
+  font-size: 18px;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+}
+#userModal {
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+.toolButton:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.b3b {
+  width: 100px; 
+  
+}
+.b3b:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.guestText{
+margin-left: 10px;
+}
+.register-info {
+font-family: "Century Gothic", sans-serif;
+margin-top: 10px;
+font-size: 14px;
+}
+
+.map-link {
+color: #433185;
+text-decoration: underline;
+transition: color 0.3s; 
+}
+
+.map-link:hover {
+color: #3EBEE7;
+font-weight: bold;
+}
+
+
+#confirmationModal {
+display: none;
+position: fixed;
+z-index: 1000;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#confirmationModal .modal-content {
+background-color: #fefefe;
+margin: 18% auto;
+padding: 20px;
+top: 30%;
+border: 1px solid #888;
+width: 290px;
+max-width: 80%;
+border-radius: 10px;
+position: relative;
+color: #433185;
+font-family: "Century Gothic", sans-serif;
+}
+
+
+#confirmationModal .modal-content p {
+font-size: 18px;
+font-weight: bold;
+color: #433185;
+margin-bottom: 20px;
+}
+
+
+#confirmationModal .close {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+cursor: pointer;
+}
+
+#confirmationModal .close:hover,
+#confirmationModal .close:focus {
+color: black;
+text-decoration: none;
+}
+
+
+#confirmationModal #confirmYesButton,
+#confirmationModal #confirmNoButton {
+margin-top: 10px;
+background-color: #3EBEE7;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+
+#confirmationModal #confirmYesButton:hover,
+#confirmationModal #confirmNoButton:hover {
+background-color: #433185;
+}
+
+#successModal {
+display: none;
+position: fixed;
+z-index: 1000;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#successModal .modal-content {
+background-color: #fefefe;
+margin: 18% auto;
+padding: 20px;
+top: 30%;
+border: 1px solid #888;
+width: 290px;
+max-width: 80%;
+border-radius: 10px;
+position: relative;
+color: #433185;
+font-family: "Century Gothic", sans-serif;
+}
+
+
+#successModal .modal-content p {
+font-size: 18px;
+font-weight: bold;
+color: #433185;
+margin-bottom: 20px;
+}
+
+
+#successModal .closeSuccessModal {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+cursor: pointer;
+}
+
+#successModal .closeSuccessModal:hover,
+#successModal .closeSuccessModal:focus {
+color: black;
+text-decoration: none;
+}
+
+
+#successModal #closeSuccessModalButton{
+margin-top: 10px;
+background-color: #3EBEE7;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+
+#successModal #closeSuccessModalButton:hover {
+background-color: #433185;
+}
+
+#businessAccountRestrictionModal {
+display: none;
+position: fixed;
+z-index: 1000;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#businessAccountRestrictionModal .modal-content {
+background-color: #fefefe;
+margin: 18% auto;
+padding: 20px;
+border: 1px solid #888;
+width: 290px;
+top: 30%;
+max-width: 80%;
+border-radius: 10px;
+position: relative;
+color: #433185;
+font-family: "Century Gothic", sans-serif;
+}
+
+
+#businessAccountRestrictionModal .modal-content p {
+font-size: 18px;
+font-weight: bold;
+color: #433185;
+margin-bottom: 20px;
+}
+
+
+#businessAccountRestrictionModal .closeBusinessAccountRestriction {
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+cursor: pointer;
+}
+
+#businessAccountRestrictionModal .closeBusinessAccountRestriction:hover,
+#businessAccountRestrictionModal .closeBusinessAccountRestriction:focus {
+color: black;
+text-decoration: none;
+}
+
+
+#businessAccountRestrictionModal #closeBusinessAccountRestrictionButton{
+margin-top: 10px;
+background-color: #3EBEE7;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+
+#businessAccountRestrictionModal #closeBusinessAccountRestrictionButton:hover {
+background-color: #433185;
+}
+
+
+#standardAccountRestrictionModal {
+display: none;
+position: fixed;
+z-index: 1000;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#standardAccountRestrictionModal .modal-content {
+background-color: #fefefe;
+margin: 18% auto;
+padding: 20px;
+border: 1px solid #888;
+width: 290px;
+max-width: 80%;
+border-radius: 10px;
+top: 30%;
+position: relative;
+color: #433185;
+font-family: "Century Gothic", sans-serif;
+}
+
+
+#standardAccountRestrictionModal .modal-content p {
+font-size: 18px;
+font-weight: bold;
+color: #433185;
+margin-bottom: 20px;
+}
+
+
+#standardAccountRestrictionModal .closeStandardAccountRestriction{
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+cursor: pointer;
+}
+
+#standardAccountRestrictionModal .closeStandardAccountRestriction:hover,
+#standardAccountRestrictionModal .closeStandardAccountRestriction:focus {
+color: black;
+text-decoration: none;
+}
+
+
+#standardAccountRestrictionModal #closeStandardAccountRestrictionButton{
+margin-top: 10px;
+background-color: #3EBEE7;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+
+#standardAccountRestrictionModal #closeStandardAccountRestrictionButton:hover {
+background-color: #433185;
+}
+
+#negativeBalanceModal {
+display: none;
+position: fixed;
+z-index: 1000;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#negativeBalanceModal .modal-content {
+background-color: #fefefe;
+margin: 18% auto;
+padding: 20px;
+border: 1px solid #888;
+width: 290px;
+max-width: 80%;
+top: 30%;
+border-radius: 10px;
+position: relative;
+color: #433185;
+font-family: "Century Gothic", sans-serif;
+}
+
+
+#negativeBalanceModal .modal-content p {
+font-size: 18px;
+font-weight: bold;
+color: #433185;
+margin-bottom: 20px;
+}
+
+
+#negativeBalanceModal .closeNegativeBalance{
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+cursor: pointer;
+}
+
+#negativeBalanceModal .closeNegativeBalance:hover,
+#negativeBalanceModal .closeNegativeBalance:focus {
+color: black;
+text-decoration: none;
+}
+
+
+#negativeBalanceModal #closeNegativeBalanceButton{
+margin-top: 10px;
+background-color: #3EBEE7;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+
+#negativeBalanceModal #closeNegativeBalanceButton:hover {
+background-color: #433185;
+}
+
+
+#alreadySetTariffModal {
+display: none;
+position: fixed;
+z-index: 1000;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#alreadySetTariffModal .modal-content {
+background-color: #fefefe;
+margin: 18% auto;
+padding: 20px;
+border: 1px solid #888;
+width: 290px;
+max-width: 80%;
+border-radius: 10px;
+top: 30%;
+position: relative;
+color: #433185;
+font-family: "Century Gothic", sans-serif;
+}
+
+
+#alreadySetTariffModal .modal-content p {
+font-size: 18px;
+font-weight: bold;
+color: #433185;
+margin-bottom: 20px;
+}
+
+
+#alreadySetTariffModal .closeAlreadySetTariff{
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+cursor: pointer;
+}
+
+#alreadySetTariffModal.closeAlreadySetTariff:hover,
+#alreadySetTariffModal.closeAlreadySetTariff:focus {
+color: black;
+text-decoration: none;
+}
+
+
+#alreadySetTariffModal #closeAlreadySetTariffButton{
+margin-top: 10px;
+background-color: #3EBEE7;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+}
+
+#alreadySetTariffModal #closeAlreadySetTariffButton:hover {
+background-color: #433185;
+}
+.b1b:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.b2b:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.b1b:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.b3b:hover {
+  cursor: pointer;
+}

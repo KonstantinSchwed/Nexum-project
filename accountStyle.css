@@ -1,0 +1,575 @@
+  .modal2 {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content2 {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .close2 {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: rgb(148, 134, 134);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #userModal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content3 {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    position: relative;
+    background-color: #fefefe; 
+    padding: 20px; 
+    border: 1px solid #888; 
+    width: 290px; 
+    max-width: 80%; 
+    border-radius: 0 0 0 10px; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    font-family: "Century Gothic", sans-serif; 
+    color: #433185; 
+  }
+
+  #loginForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #433185;
+    font-family: "Century Gothic", sans-serif;
+  }
+  .label2 {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+  }
+  #loginForm input {
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc; 
+    outline: none; 
+    margin-top: 5px;
+  }
+  
+  #confirmButton2 {
+    margin-top: 10px; 
+    background-color: #3EBEE7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  #confirmButton2:hover {
+    background-color: #433185;
+  }
+  
+  #logoutButton {
+    margin-top: 10px; 
+    background-color: #3EBEE7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  #logoutButton:hover {
+    background-color: #433185;
+  }
+  .closeUserModal {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closeUserModal:hover,
+  .closeUserModal:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .based{
+    font-size: 18px;
+    color: #433185;
+    font-family: "Century Gothic", sans-serif;
+    font-weight: bold;
+  }
+  #userModal {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+  .toolButton:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+.b3b {
+    width: 100px; 
+    
+}
+.b3b:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.guestText{
+  margin-left: 10px;
+}
+.register-info {
+  font-family: "Century Gothic", sans-serif;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.map-link {
+  color: #433185;
+  text-decoration: underline;
+  transition: color 0.3s; 
+}
+
+.map-link:hover {
+  color: #3EBEE7;
+  font-weight: bold;
+}
+
+
+#confirmationModal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#confirmationModal .modal-content {
+  background-color: #fefefe;
+  margin: 18% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 290px;
+  max-width: 80%;
+  border-radius: 10px;
+  position: relative;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+
+
+#confirmationModal .modal-content p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #433185;
+  margin-bottom: 20px;
+}
+
+
+#confirmationModal .close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#confirmationModal .close:hover,
+#confirmationModal .close:focus {
+  color: black;
+  text-decoration: none;
+}
+
+
+#confirmationModal #confirmYesButton,
+#confirmationModal #confirmNoButton {
+  margin-top: 10px;
+  background-color: #3EBEE7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#confirmationModal #confirmYesButton:hover,
+#confirmationModal #confirmNoButton:hover {
+  background-color: #433185;
+}
+
+#successModal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#successModal .modal-content {
+  background-color: #fefefe;
+  margin: 18% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 290px;
+  max-width: 80%;
+  border-radius: 10px;
+  position: relative;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+
+
+#successModal .modal-content p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #433185;
+  margin-bottom: 20px;
+}
+
+
+#successModal .closeSuccessModal {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#successModal .closeSuccessModal:hover,
+#successModal .closeSuccessModal:focus {
+  color: black;
+  text-decoration: none;
+}
+
+
+#successModal #closeSuccessModalButton{
+  margin-top: 10px;
+  background-color: #3EBEE7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#successModal #closeSuccessModalButton:hover {
+  background-color: #433185;
+}
+
+#businessAccountRestrictionModal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#businessAccountRestrictionModal .modal-content {
+  background-color: #fefefe;
+  margin: 18% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 290px;
+  max-width: 80%;
+  border-radius: 10px;
+  position: relative;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+
+
+#businessAccountRestrictionModal .modal-content p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #433185;
+  margin-bottom: 20px;
+}
+
+
+#businessAccountRestrictionModal .closeBusinessAccountRestriction {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#businessAccountRestrictionModal .closeBusinessAccountRestriction:hover,
+#businessAccountRestrictionModal .closeBusinessAccountRestriction:focus {
+  color: black;
+  text-decoration: none;
+}
+
+
+#businessAccountRestrictionModal #closeBusinessAccountRestrictionButton{
+  margin-top: 10px;
+  background-color: #3EBEE7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#businessAccountRestrictionModal #closeBusinessAccountRestrictionButton:hover {
+  background-color: #433185;
+}
+
+
+#standardAccountRestrictionModal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#standardAccountRestrictionModal .modal-content {
+  background-color: #fefefe;
+  margin: 18% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 290px;
+  max-width: 80%;
+  border-radius: 10px;
+  position: relative;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+
+
+#standardAccountRestrictionModal .modal-content p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #433185;
+  margin-bottom: 20px;
+}
+
+
+#standardAccountRestrictionModal .closeStandardAccountRestriction{
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#standardAccountRestrictionModal .closeStandardAccountRestriction:hover,
+#standardAccountRestrictionModal .closeStandardAccountRestriction:focus {
+  color: black;
+  text-decoration: none;
+}
+
+
+#standardAccountRestrictionModal #closeStandardAccountRestrictionButton{
+  margin-top: 10px;
+  background-color: #3EBEE7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#standardAccountRestrictionModal #closeStandardAccountRestrictionButton:hover {
+  background-color: #433185;
+}
+
+#negativeBalanceModal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#negativeBalanceModal .modal-content {
+  background-color: #fefefe;
+  margin: 18% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 290px;
+  max-width: 80%;
+  border-radius: 10px;
+  position: relative;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+
+
+#negativeBalanceModal .modal-content p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #433185;
+  margin-bottom: 20px;
+}
+
+
+#negativeBalanceModal .closeNegativeBalance{
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#negativeBalanceModal .closeNegativeBalance:hover,
+#negativeBalanceModal .closeNegativeBalance:focus {
+  color: black;
+  text-decoration: none;
+}
+
+
+#negativeBalanceModal #closeNegativeBalanceButton{
+  margin-top: 10px;
+  background-color: #3EBEE7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#negativeBalanceModal #closeNegativeBalanceButton:hover {
+  background-color: #433185;
+}
+
+
+#alreadySetTariffModal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+#alreadySetTariffModal .modal-content {
+  background-color: #fefefe;
+  margin: 18% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 290px;
+  max-width: 80%;
+  border-radius: 10px;
+  position: relative;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+
+
+#alreadySetTariffModal .modal-content p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #433185;
+  margin-bottom: 20px;
+}
+
+
+#alreadySetTariffModal .closeAlreadySetTariff{
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#alreadySetTariffModal.closeAlreadySetTariff:hover,
+#alreadySetTariffModal.closeAlreadySetTariff:focus {
+  color: black;
+  text-decoration: none;
+}
+
+
+#alreadySetTariffModal #closeAlreadySetTariffButton{
+  margin-top: 10px;
+  background-color: #3EBEE7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#alreadySetTariffModal #closeAlreadySetTariffButton:hover {
+  background-color: #433185;
+}
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support</title>
+    <link rel="stylesheet" href="/support eng/css/supportstyle.css"> 
+    <link rel="stylesheet" href="/accountStyle.css"> 
+    <link rel="icon" href="/about us/resource/app1.png" type="image/x-icon">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+ <script src="/Accounteng.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="block"></div>
+        <a href="/official eng/html/official.html">
+            <div class="loog"></div>
+        </a>
+        </div>
+        <div class="links">
+            <a href="/storepage eng/html/main.html">Tariffs and Services</a>
+            <a href="/apps eng/html/apps.html">Additional Services <span> (Applications)</span></a>
+            <a href="/support eng/html/support.html">Support</a>
+        </div>
+        <div class="links2">
+            <a class="links2_2" href="/client eng/html/client.html">For Private Clients</a>
+            <a class="links2_2" href="/bclient eng/html/bclient.html">For Business</a>
+            <a class="links2_2" href="/about us eng/html/index.html">About the Company</a>
+        </div>
+        <div class="buttons">
+            <a class="b1bs" href="/support eng/html/support.html">
+            <button class="b1b">EN</button>
+            </a>
+            <a class="b2bs" href="/support/html/support.html">
+            <button class="b2b">RU</button>
+            </a>
+            <button class="b3b">Enter</button>
+        </div>
+    </header>
+    <div class="mainclass">
+        <div class="csuptext">
+            <p class="suptext">Technical and Advisory Support for Clients</p>
+        </div>
+        <div class="csuptext2">
+            <p class="suptext2" id="toggleService">
+                Depending on the issue, you can fill out the form on the website<br>
+                or call the technical or other support numbers.
+            </p>
+            <div class="additional-block">
+                <div class="continfo">
+                    <div class="conthead">
+                        <p class="contheadt">Contact Information<br>for Support Services</p>
+                    </div>
+                    <div class="conthead2">
+                        <p class="contheadt2">Technical Support</p>
+                        <p class="contheadt2">
+                            <a href="tel:+375440000000">+375(44) *** ** **</a>
+                        </p>
+                        <p class="contheadt2">
+                            <a href="mailto:nexumtechsup@.email.com">nexumtechsup@.email.com</a>
+                        </p>
+                    </div>
+                    <div class="conthead3">
+                        <p class="contheadt3">Advisory Support</p>
+                        <p class="contheadt3">
+                            <a href="tel:+375440000000">+375(44) *** ** **</a>
+                        </p>
+                        <p class="contheadt3">
+                            <a href="mailto:nexumconsult@.email.com">nexumconsult@.email.com</a>
+                        </p>
+                    </div>
+                    <div class="conthead4">
+                        <p class="contheadt4">Legal Support</p>
+                        <p class="contheadt4">
+                            <a href="tel:+375440000000">+375(44) *** ** **</a>
+                        </p>
+                        <p class="contheadt4">
+                            <a href="mailto:nexumjurist@.email.com">nexumjurist@.email.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="fintext">
+                    <p class="ftext">
+                        The response time for phone calls<br>
+                        may vary.<br>
+                        Average response time: 4 minutes.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="form-container">
+            <form class="form1">
+                <div class="form-group">
+                    <label for="first name">First Name</label>
+                    <input type="text" id="first-name" name="first_name" required>
+                    <label for="last name">Last Name</label>
+                    <input type="text" id="last-name" name="last_name" required>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="message1">
+                    <div class="mingroup">
+                        <p class="descr">You will receive a response within the workweek!</p>
+                    </div>
+                    <label for="message">Describe your issue</label>
+                    <textarea id="message" name="message" rows="4" required style="resize: none;"></textarea>
+                    <div class="mingroup1">
+                        <p class="ask">Confirm the processing<br>of personal data</p>
+                        <input type="checkbox" id="agree" name="agree" value="agree" required>
+                        <button type="submit">Send</button>
+                        <div class="loader" id="loader"></div> 
+                   </div>
+                </div>
+            </form>
+        </div>
+        <div class="csuptext3">
+            <p class="suptext3" id="toggleService">The response time depends on the specialist's workload.<br>
+                Please understand this.</p>
+        </div>
+        <div class="csuptext4">
+            <div class="bsuptext4">
+                <p class="suptext4" id="toggleService">You may not receive a response if<br>
+                    you violate the service conditions. Please familiarize yourself<br>
+                    with the file.</p>    
+            </div>
+            <button class="download"></button>     
+        </div>
+    </div>   
+    <div id="successModal" class="modalz">
+        <div class="modal-contentz">
+            <span class="close" id="closeSuccess">&times;</span>
+            <p>Your message has been sent!</p>
+        </div>
+    </div>
+    
+    <div id="errorModal" class="modalz">
+        <div class="modal-contentz">
+            <span class="close" id="closeError">&times;</span>
+            <p id="errorMessage">An error occurred while sending the message.</p>
+        </div>
+    </div>
+    <div id="myModal2" class="modal2">
+        <div class="modal-content2">
+            <span class="close2">&times;</span>
+            <p class="based">Login to your account:</p>
+            <form id="loginForm">
+                <label for="phone2" class="label2">Phone:</label>
+                <input type="text" id="phone2" name="phone2" placeholder="Your phone" required>
+                <label for="password" class="label2">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Your password" required>                 
+                <button id="confirmButton2" type="submit">Login</button>
+                <p class="register-info">
+                    <strong>To create an account</strong>, you need to purchase a SIM card at one of our offices. 
+                    <a href="https://yandex.ru/maps" target="_blank" class="map-link">
+                          View on map
+                    </a>
+                </p>
+            </form>
+        </div>
+    </div>
+        <div id="userModal" style="display: none;">
+            <div class="modal-content3">
+                <span class="closeUserModal">&times;</span>
+                <h2>User Information</h2>
+                <div id="userInfo"></div> 
+                <button id="logoutButton">Logout</button>
+            </div>
+        </div>        
+        <footer class="footer">
+            <div class="btext">
+                <p><span class="highlight">Nексум</span> is a mobile operator providing high-quality <br> mobile communication and wireless internet services.</p>
+                 <p><span class="highlight">Our company's goal</span> is to meet all customer needs<br>  in wireless communication in the shortest possible time, as well as provide 
+                    <br> qualified technical support to all our subscribers.</p>
+                <p><span class="highlight">Every client is very important and dear to us.</span></p>
+            </div>
+            <div class="copyright">
+                <p>© 2021–2024 LLC "Nексум". All rights reserved.</p>
+            </div>
+            <div class="social">
+                <p>Social Networks</p>
+            </div>
+            <div class="social-icons">
+                <div class="icon">
+                    <a href="https://t.me" target="_blank" rel="noopener noreferrer">
+                        <img src="/about us/resource/pngwing.com (4).png" alt="Telegram Icon">
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                        <img src="/about us/resource/pngwing.com (5).png" alt="Instagram Icon">
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://vk.com" target="_blank" rel="noopener noreferrer">
+                        <img src="/about us/resource/pngwing.com (6).png" alt="VK Icon">
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                        <img src="/about us/resource/pngwing.com (7).png" alt="Facebook Icon">
+                    </a>
+                </div>
+            </div>
+            <div class="contacts">
+                <p>Contact Number<br>and Email</p>
+            </div>
+            <div class="data">
+                <p class="pcls">
+                    <a href="tel:+375440000000">+375(44) ***</a>
+                </p>
+                <p class="pcls">
+                    <a href="tel:+375290000000">+375(29) *** (alternative)</a>
+                </p>
+                <p class="pcls">
+                    <a href="mailto:nexum@email.com">nexum@email.com</a>
+                </p>
+            </div>  
+        </footer>
+    <script>
+        var device = window.devicePixelRatio;
+        if (device == 1.25) {
+            document.documentElement.classList.add('laptop');
+        } else if (device == 1.0) {
+            document.documentElement.classList.add('desktop');
+        }
+        else if (device == 1.5){
+            document.documentElement.classList.add('laptop2');
+        }
+    </script>
+    <script src="/support/js/support.js"></script>
+</body>
+</html>

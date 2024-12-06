@@ -1,0 +1,425 @@
+body,
+h1,
+p,
+footer {
+  margin: 0;
+  overflow-x: hidden;
+
+}
+body{
+  background-color: #3ebee7;
+}
+header {
+  display: flex;
+  background-color: #433185;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  min-width: 1500px;
+  overflow-x: hidden;
+}
+
+footer {
+  background-color: #3ebee7;
+  color: #000000;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainclass {
+  width: 100%;
+  height: 920px;
+  background-image: url("/about us/resource/space-beauty.jpg");
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.loog {
+  margin-top: 3px;
+  width: 55px;
+  height: 55px;
+  background-image: url("/about us/resource/Remove-bg.ai_1709140091974.png");
+  background-size: cover;
+  background-position: center;
+  border: none;
+  margin-left: 20px;
+  float: left;
+  transition: transform 0.5s ease;
+}
+.loog:hover {
+  transform: rotate(360deg);
+}
+.links {
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 7px;
+  z-index: 1;
+}
+.burg1 {
+  width: 45px;
+  height: 45px;
+}
+.buttons {
+  position: absolute;
+  top: 60px;
+  right: 100px;
+}
+
+.buttons button {
+  margin-right: 40px;
+  border-radius: 30px;
+  border-color: transparent;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.modal2b .b1bs {
+  margin-top: 20px;
+  display: inline-block; 
+  border-radius: 30px;
+  margin-left: 20px;
+  background-color: #ffffff;
+  text-decoration: none;
+  width: 50px;
+
+  }
+.modal2b .b2bs {
+   margin-top: 20px;
+    display: inline-block; 
+    margin-left: 10px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    text-decoration: none;
+    width: 50px;
+    }
+    
+.b1b {
+  width: 50px;
+  border-radius: 30px;
+  border-color: transparent;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.b2b {
+  margin-right: 40px !important;
+  width: 50px;
+  border-radius: 30px;
+  border-color: transparent;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+}
+
+.b3b {
+  margin-left: 20px;
+  width: 100px;
+  border-radius: 30px;
+  border-color: transparent;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+}
+
+.block {
+  display: flex;
+  width: 200px;
+  background-color: #3ebee7;
+  height: 60px;
+  position: fixed;
+  clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+  margin-left: calc(100% - 200px);
+}
+
+.btext {
+  margin-top: 20px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 14px;
+  align-self: center;
+  margin-left: 15px;
+}
+
+.highlight {
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
+}
+
+.copyright {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 12px;
+  padding-top: 15px;
+  margin-bottom: 10px;
+}
+
+.social {
+  text-align: center;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 40px;
+  align-self: center;
+  margin-top: 15px;
+}
+.icon {
+  transition: transform 0.3s ease;
+}
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+}
+.contacts {
+  margin-top: 15px;
+  text-align: center;
+  right: 210px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  top: 75px;
+}
+
+.data {
+  margin-top: 15px;
+  font-size: 14px;
+  align-self: center;
+  font-family: "Century Gothic", sans-serif;
+  text-align: center;
+}
+
+.logo1 {
+  margin-top: 80px;
+  margin-left: 8px;
+  margin-right: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.text1 {
+  margin-top: 120px;
+  margin-bottom: 40px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.text2 {
+  font-family: "Century Gothic", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.text3 {
+  margin-left: auto;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.logo2 {
+  margin-right: 20px;
+  width: 150px;
+  height: 150px;
+}
+.text4 {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Century Gothic", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.main_1 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.main_1_1 {
+  display: flex;
+}
+
+.main_2 {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.main_2_1 {
+  display: flex;
+}
+@media screen {
+  .desktop {
+    overflow-x: hidden;
+  }
+}
+@media screen {
+  .laptop {
+    zoom: 0.8;
+    transform-origin: top left;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+}
+@media screen {
+  .laptop2 {
+    zoom: 0.67;
+    transform-origin: top left;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+#telegram-icon {
+  font-size: 30px;
+  color: #2aabee;
+  background-color: #ffffff;
+  background: radial-gradient(circle, #ffffff, rgba(255, 255, 255, 0));
+  border-radius: 50%;
+}
+.modalb {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-contentb {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: #3ebee7;
+  padding-top: 20px;
+  border: 2px solid black;
+  margin-left: 150px;
+  border-bottom-left-radius: 10px;
+  position: relative;
+}
+
+.lks {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.lks a {
+  text-decoration: none;
+}
+
+.gran {
+  padding-left: 20px;
+  border-top: solid 2px black;
+}
+.blockclose {
+  top: -5px;
+  position: absolute;
+  right: 20px;
+}
+.closeb {
+  color: #433185;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.closeb:hover,
+.closeb:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+#confirmButton {
+  margin-top: 10px;
+  background-color: #3ebee7;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#confirmButton:hover {
+  background-color: #433185;
+}
+.additional {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+.based {
+  font-size: 18px;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+  font-weight: bold;
+}
+.additional2 {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+.additional3 {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #433185;
+  font-family: "Century Gothic", sans-serif;
+}
+.data a {
+  text-decoration: none;
+  color: #433185;
+  font-weight: bold;
+}
+.data a:hover {
+  color: #f3f3f3;
+}
+.b1b:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.b2b:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.b1b:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.b3b:hover {
+  cursor: pointer;
+}
